@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Recorder" />
+        <module name="NodeProcessing" />
+        <module name="GatewayAPI" />
+        <module name="Entities" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Entities" target="17" />
+      <module name="GatewayAPI" target="17" />
+      <module name="NodeProcessing" target="17" />
+      <module name="Recorder" target="17" />
+      <module name="ShopCompany" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Entities" options="" />
+      <module name="GatewayAPI" options="-parameters" />
+      <module name="NodeProcessing" options="" />
+      <module name="Recorder" options="" />
+    </option>
+  </component>
+</project>

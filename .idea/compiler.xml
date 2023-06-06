@@ -13,13 +13,6 @@
         <module name="Entities" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Entities" target="17" />
-      <module name="GatewayAPI" target="17" />
-      <module name="NodeProcessing" target="17" />
-      <module name="Recorder" target="17" />
-      <module name="ShopCompany" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

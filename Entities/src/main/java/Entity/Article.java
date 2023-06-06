@@ -2,6 +2,7 @@ package Entity;
 
 import lombok.*;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 @NoArgsConstructor
@@ -9,7 +10,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @Builder
-public class Article {
+public class Article implements Serializable {
     private Long id;
     private String name;
     private String barCode;

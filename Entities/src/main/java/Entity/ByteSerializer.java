@@ -2,6 +2,8 @@ package Entity;
 
 
 import java.io.*;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class ByteSerializer {
     private static byte[] byteArray = new byte[2000000000];
